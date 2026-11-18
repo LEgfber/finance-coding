@@ -1,0 +1,31 @@
+name: Classement automatique
+
+on:
+  schedule:
+    # Heures UTC, du lundi au vendredi : toutes les heures pendant la séance de Paris, puis après la clôture
+    - cron: "20 8-16 * * 1-5"
+    - cron: "45 16 * * 1-5"
+  workflow_dispatch: # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+concurrency: classement
+
+jobs:
+  classement:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python test_tri.py
+      - run: python classement.py
+      - name: Enregistrer le nouveau classement
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Classement mis à jour" && git push)
