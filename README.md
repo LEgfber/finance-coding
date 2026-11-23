@@ -7,42 +7,42 @@ Petit outil en Python pour trier et filtrer une liste d'actions : variation du j
 Ce tableau se met à jour tout seul : toutes les heures pendant la séance de Paris, GitHub récupère les vrais cours sur Yahoo Finance et refait le tri. Le programme est dans `classement.py`, et l'automatisation dans `.github/workflows/classement.yml`.
 
 <!-- CLASSEMENT:DEBUT -->
-_Mis à jour le 23/11/2026 à 14:47 (heure de Paris). Derniers cours : 23/11/2026 14:32, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
+_Mis à jour le 23/11/2026 à 16:27 (heure de Paris). Derniers cours : 23/11/2026 16:12, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
 
 ### Plus fortes hausses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | ArcelorMittal | +3,21 % |
-| 2 | STMicroelectronics | +2,72 % |
-| 3 | Renault | +2,60 % |
-| 4 | Legrand | +2,32 % |
-| 5 | Safran | +2,19 % |
+| 1 | STMicroelectronics | +10,02 % |
+| 2 | ArcelorMittal | +4,53 % |
+| 3 | Legrand | +4,44 % |
+| 4 | Schneider Electric | +4,32 % |
+| 5 | Société Générale | +3,55 % |
 
 ### Plus fortes baisses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | Dassault Systèmes | -1,12 % |
-| 2 | Air Liquide | -0,57 % |
-| 3 | Orange | -0,56 % |
-| 4 | Teleperformance | -0,45 % |
-| 5 | Danone | -0,44 % |
+| 1 | Orange | -1,92 % |
+| 2 | Danone | -1,44 % |
+| 3 | Dassault Systèmes | -1,12 % |
+| 4 | EssilorLuxottica | -1,00 % |
+| 5 | Carrefour | -0,96 % |
 
 ### Plus grandes capitalisations
 
 | # | Société | Capitalisation |
 |---:|---|---:|
-| 1 | L'Oréal | 232,10 Md€ |
-| 2 | LVMH | 188,70 Md€ |
-| 3 | TotalEnergies | 170,84 Md€ |
-| 4 | Airbus | 152,40 Md€ |
-| 5 | Schneider Electric | 135,30 Md€ |
-| 6 | Hermès | 129,71 Md€ |
-| 7 | Safran | 123,57 Md€ |
-| 8 | Air Liquide | 119,03 Md€ |
-| 9 | Sanofi | 101,96 Md€ |
-| 10 | BNP Paribas | 99,34 Md€ |
+| 1 | L'Oréal | 232,13 Md€ |
+| 2 | LVMH | 190,24 Md€ |
+| 3 | TotalEnergies | 170,23 Md€ |
+| 4 | Airbus | 153,76 Md€ |
+| 5 | Schneider Electric | 138,89 Md€ |
+| 6 | Hermès | 130,65 Md€ |
+| 7 | Safran | 124,90 Md€ |
+| 8 | Air Liquide | 119,11 Md€ |
+| 9 | Sanofi | 101,91 Md€ |
+| 10 | BNP Paribas | 100,77 Md€ |
 
 ### Rendements du dividende les plus élevés
 
@@ -63,16 +63,16 @@ _Mis à jour le 23/11/2026 à 14:47 (heure de Paris). Derniers cours : 23/11/202
 
 | # | Société | PER |
 |---:|---|---:|
-| 1 | Michelin | 3,06 |
-| 2 | Orange | 3,70 |
-| 3 | Carrefour | 6,27 |
-| 4 | Crédit Agricole | 7,41 |
-| 5 | Société Générale | 7,69 |
-| 6 | BNP Paribas | 7,93 |
-| 7 | Renault | 8,20 |
+| 1 | Michelin | 3,07 |
+| 2 | Orange | 3,65 |
+| 3 | Carrefour | 6,22 |
+| 4 | Crédit Agricole | 7,46 |
+| 5 | Société Générale | 7,84 |
+| 6 | BNP Paribas | 8,04 |
+| 7 | Renault | 8,27 |
 | 8 | Teleperformance | 8,36 |
-| 9 | Unibail-Rodamco-Westfield | 8,52 |
-| 10 | TotalEnergies | 8,80 |
+| 9 | Unibail-Rodamco-Westfield | 8,42 |
+| 10 | TotalEnergies | 9,02 |
 <!-- CLASSEMENT:FIN -->
 
 ## Tri d'un fichier CSV
