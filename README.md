@@ -7,7 +7,7 @@ Petit outil en Python pour trier et filtrer une liste d'actions : variation du j
 Ce tableau se met à jour tout seul : toutes les heures pendant la séance de Paris, GitHub récupère les vrais cours sur Yahoo Finance et refait le tri. Le programme est dans `classement.py`, et l'automatisation dans `.github/workflows/classement.yml`.
 
 <!-- CLASSEMENT:DEBUT -->
-_Mis à jour le 24/11/2026 à 18:18 (heure de Paris). Derniers cours : 24/11/2026 17:39, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
+_Mis à jour le 24/11/2026 à 18:31 (heure de Paris). Derniers cours : 24/11/2026 17:39, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
 
 ### Plus fortes hausses du jour
 
@@ -70,9 +70,9 @@ _Mis à jour le 24/11/2026 à 18:18 (heure de Paris). Derniers cours : 24/11/202
 | 5 | Société Générale | 7,75 |
 | 6 | BNP Paribas | 7,90 |
 | 7 | Renault | 8,18 |
-| 8 | Teleperformance | 8,51 |
-| 9 | Unibail-Rodamco-Westfield | 8,53 |
-| 10 | TotalEnergies | 8,77 |
+| 8 | Unibail-Rodamco-Westfield | 8,43 |
+| 9 | Teleperformance | 8,51 |
+| 10 | TotalEnergies | 9,01 |
 <!-- CLASSEMENT:FIN -->
 
 ## Tri d'un fichier CSV
