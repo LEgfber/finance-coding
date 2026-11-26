@@ -7,72 +7,72 @@ Petit outil en Python pour trier et filtrer une liste d'actions : variation du j
 Ce tableau se met à jour tout seul : toutes les heures pendant la séance de Paris, GitHub récupère les vrais cours sur Yahoo Finance et refait le tri. Le programme est dans `classement.py`, et l'automatisation dans `.github/workflows/classement.yml`.
 
 <!-- CLASSEMENT:DEBUT -->
-_Mis à jour le 25/11/2026 à 18:29 (heure de Paris). Derniers cours : 25/11/2026 17:39, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
+_Mis à jour le 26/11/2026 à 10:30 (heure de Paris). Derniers cours : 26/11/2026 10:15, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
 
 ### Plus fortes hausses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | Bureau Veritas | +6,60 % |
-| 2 | Sanofi | +4,89 % |
-| 3 | Stellantis | +3,75 % |
-| 4 | Renault | +2,28 % |
-| 5 | Unibail-Rodamco-Westfield | +1,41 % |
+| 1 | Stellantis | +5,50 % |
+| 2 | STMicroelectronics | +5,20 % |
+| 3 | Safran | +4,02 % |
+| 4 | ArcelorMittal | +3,88 % |
+| 5 | Renault | +3,65 % |
 
 ### Plus fortes baisses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | STMicroelectronics | -4,69 % |
-| 2 | Schneider Electric | -4,18 % |
-| 3 | Legrand | -3,27 % |
-| 4 | Société Générale | -2,96 % |
-| 5 | Edenred | -2,86 % |
+| 1 | Danone | -0,06 % |
+| 2 | Carrefour | +0,33 % |
+| 3 | Dassault Systèmes | +0,68 % |
+| 4 | Pernod Ricard | +0,77 % |
+| 5 | TotalEnergies | +0,84 % |
 
 ### Plus grandes capitalisations
 
 | # | Société | Capitalisation |
 |---:|---|---:|
-| 1 | L'Oréal | 235,73 Md€ |
-| 2 | LVMH | 191,84 Md€ |
-| 3 | TotalEnergies | 169,29 Md€ |
-| 4 | Airbus | 149,94 Md€ |
-| 5 | Hermès | 130,96 Md€ |
-| 6 | Schneider Electric | 127,31 Md€ |
-| 7 | Air Liquide | 120,27 Md€ |
-| 8 | Safran | 120,19 Md€ |
-| 9 | Sanofi | 117,85 Md€ |
-| 10 | BNP Paribas | 96,69 Md€ |
+| 1 | L'Oréal | 237,89 Md€ |
+| 2 | LVMH | 197,55 Md€ |
+| 3 | TotalEnergies | 170,71 Md€ |
+| 4 | Airbus | 154,40 Md€ |
+| 5 | Hermès | 134,05 Md€ |
+| 6 | Schneider Electric | 129,60 Md€ |
+| 7 | Safran | 125,02 Md€ |
+| 8 | Air Liquide | 121,69 Md€ |
+| 9 | Sanofi | 119,08 Md€ |
+| 10 | BNP Paribas | 99,43 Md€ |
 
 ### Rendements du dividende les plus élevés
 
 | # | Société | Rendement |
 |---:|---|---:|
-| 1 | Crédit Agricole | 11,02 % |
-| 2 | Renault | 8,09 % |
-| 3 | Carrefour | 7,20 % |
-| 4 | BNP Paribas | 7,06 % |
-| 5 | Teleperformance | 6,85 % |
-| 6 | Pernod Ricard | 6,60 % |
-| 7 | Engie | 5,52 % |
-| 8 | Edenred | 5,36 % |
-| 9 | AXA | 5,11 % |
-| 10 | Orange | 5,04 % |
+| 1 | Crédit Agricole | 11,06 % |
+| 2 | Renault | 8,22 % |
+| 3 | BNP Paribas | 7,16 % |
+| 4 | Carrefour | 7,04 % |
+| 5 | Teleperformance | 6,68 % |
+| 6 | Pernod Ricard | 6,52 % |
+| 7 | Engie | 5,48 % |
+| 8 | Edenred | 5,22 % |
+| 9 | AXA | 5,12 % |
+| 10 | Bouygues | 4,96 % |
 
 ### PER les plus bas (bénéfices positifs)
 
 | # | Société | PER |
 |---:|---|---:|
-| 1 | Michelin | 3,04 |
-| 2 | Orange | 3,76 |
-| 3 | Carrefour | 6,40 |
-| 4 | Crédit Agricole | 7,35 |
-| 5 | Société Générale | 7,53 |
-| 6 | BNP Paribas | 7,72 |
-| 7 | Renault | 8,37 |
-| 8 | Teleperformance | 8,50 |
-| 9 | Unibail-Rodamco-Westfield | 8,55 |
-| 10 | TotalEnergies | 8,97 |
+| 1 | Michelin | 3,10 |
+| 2 | Orange | 3,80 |
+| 3 | Carrefour | 6,42 |
+| 4 | Crédit Agricole | 7,46 |
+| 5 | Société Générale | 7,51 |
+| 6 | BNP Paribas | 7,75 |
+| 7 | Unibail-Rodamco-Westfield | 8,66 |
+| 8 | Teleperformance | 8,66 |
+| 9 | TotalEnergies | 8,80 |
+| 10 | Renault | 8,87 |
 <!-- CLASSEMENT:FIN -->
 
 ## Tri d'un fichier CSV
