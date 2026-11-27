@@ -7,42 +7,42 @@ Petit outil en Python pour trier et filtrer une liste d'actions : variation du j
 Ce tableau se met à jour tout seul : toutes les heures pendant la séance de Paris, GitHub récupère les vrais cours sur Yahoo Finance et refait le tri. Le programme est dans `classement.py`, et l'automatisation dans `.github/workflows/classement.yml`.
 
 <!-- CLASSEMENT:DEBUT -->
-_Mis à jour le 27/11/2026 à 16:17 (heure de Paris). Derniers cours : 27/11/2026 16:02, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
+_Mis à jour le 27/11/2026 à 17:25 (heure de Paris). Derniers cours : 27/11/2026 17:10, différés d'environ 15 min. Source : Yahoo Finance. 40 valeurs du CAC 40._
 
 ### Plus fortes hausses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | ArcelorMittal | +3,70 % |
-| 2 | Thales | +2,14 % |
-| 3 | STMicroelectronics | +2,00 % |
-| 4 | Société Générale | +1,57 % |
-| 5 | Dassault Systèmes | +1,52 % |
+| 1 | ArcelorMittal | +4,77 % |
+| 2 | STMicroelectronics | +3,58 % |
+| 3 | Stellantis | +2,38 % |
+| 4 | Société Générale | +2,19 % |
+| 5 | Thales | +2,18 % |
 
 ### Plus fortes baisses du jour
 
 | # | Société | Variation |
 |---:|---|---:|
-| 1 | Pernod Ricard | -1,35 % |
-| 2 | Sanofi | -1,04 % |
-| 3 | Michelin | -0,95 % |
-| 4 | Accor | -0,81 % |
-| 5 | Edenred | -0,67 % |
+| 1 | Pernod Ricard | -1,66 % |
+| 2 | Sanofi | -1,18 % |
+| 3 | Michelin | -0,82 % |
+| 4 | Accor | -0,61 % |
+| 5 | Danone | -0,43 % |
 
 ### Plus grandes capitalisations
 
 | # | Société | Capitalisation |
 |---:|---|---:|
-| 1 | L'Oréal | 236,69 Md€ |
-| 2 | LVMH | 196,25 Md€ |
-| 3 | TotalEnergies | 172,64 Md€ |
-| 4 | Airbus | 154,29 Md€ |
-| 5 | Hermès | 134,15 Md€ |
-| 6 | Schneider Electric | 128,40 Md€ |
-| 7 | Safran | 125,14 Md€ |
+| 1 | L'Oréal | 236,87 Md€ |
+| 2 | LVMH | 197,82 Md€ |
+| 3 | TotalEnergies | 172,05 Md€ |
+| 4 | Airbus | 154,61 Md€ |
+| 5 | Hermès | 134,68 Md€ |
+| 6 | Schneider Electric | 129,40 Md€ |
+| 7 | Safran | 126,01 Md€ |
 | 8 | Air Liquide | 122,50 Md€ |
-| 9 | Sanofi | 117,42 Md€ |
-| 10 | BNP Paribas | 100,57 Md€ |
+| 9 | Sanofi | 117,25 Md€ |
+| 10 | BNP Paribas | 100,73 Md€ |
 
 ### Rendements du dividende les plus élevés
 
@@ -66,13 +66,13 @@ _Mis à jour le 27/11/2026 à 16:17 (heure de Paris). Derniers cours : 27/11/202
 | 1 | Michelin | 3,06 |
 | 2 | Orange | 3,81 |
 | 3 | Carrefour | 6,44 |
-| 4 | Crédit Agricole | 7,50 |
-| 5 | Société Générale | 7,86 |
-| 6 | BNP Paribas | 8,03 |
-| 7 | Unibail-Rodamco-Westfield | 8,65 |
-| 8 | Teleperformance | 8,68 |
-| 9 | TotalEnergies | 8,90 |
-| 10 | Renault | 8,94 |
+| 4 | Crédit Agricole | 7,53 |
+| 5 | Société Générale | 7,91 |
+| 6 | BNP Paribas | 8,04 |
+| 7 | Unibail-Rodamco-Westfield | 8,66 |
+| 8 | Teleperformance | 8,77 |
+| 9 | Renault | 8,98 |
+| 10 | TotalEnergies | 9,11 |
 <!-- CLASSEMENT:FIN -->
 
 ## Tri d'un fichier CSV
